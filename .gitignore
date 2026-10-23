@@ -1,0 +1,24 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep an example configuration file if you create one
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# VS Code and macOS
+.vscode/
+.DS_Store
+
+# Test and coverage files
+.pytest_cache/
+.coverage
